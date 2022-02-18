@@ -2,19 +2,9 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-client__title {
-  margin-bottom: 50px;
-  text-align: center;
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
 .client {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
 }
 
 .client__item + .client__item {
@@ -28,9 +18,7 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
   &:hover {
