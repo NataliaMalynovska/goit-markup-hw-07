@@ -10,12 +10,9 @@
   justify-content: space-around;
 }
 .contact-logo {
-  width: calc(100% / 4);
-  margin-bottom: 20px;
+  margin-right: 70px;
 }
-.contact-logo__adddress {
-  margin-top: 20px;
-}
+
 .contact__item {
   margin-top: 9px;
   &:first-child {
@@ -51,7 +48,7 @@
 }
 
 .footer-connect {
-  width: calc(100% / 4);
+  margin-right: 93px;
 }
 .footer-connect__title {
   margin-bottom: 20px;
@@ -62,17 +59,16 @@
   color: var(--alternative-text-color);
 }
 
-.footer-form {
-  width: calc(100% / 2);
-}
 .footer-form__title {
+  margin-bottom: 20px;
+
   font-weight: 700;
   text-transform: uppercase;
   color: var(--alternative-text-color);
 }
 .footer-form__box-input {
-  margin-top: 20px;
   display: flex;
+  // justify-content: space-between;
 }
 .footer-form__input {
   margin-right: 12px;
